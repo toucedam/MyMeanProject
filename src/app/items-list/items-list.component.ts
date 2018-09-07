@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import {Items} from './api-memory.service';
 
 @Component({
   selector: 'app-items-list',
