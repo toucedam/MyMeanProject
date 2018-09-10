@@ -1,13 +1,16 @@
-<div class="app">
+<div class="container">
 <app-header></app-header>
 <div>
  <nav>
    <nav>
     <ul>
-      <li><a href="#">TBD</a></li>      
+     <li *ngFor="let hero of heroes">
+      {{ hero }}
+    </li>   
     </ul>
   </nav>
  <app-items></app-items>
  </nav>
  <app-footer></app-footer>
-</div>s
+</div>  
+
