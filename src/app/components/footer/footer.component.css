@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
 .footer {
     background-color: #777;
     padding: 10px;
-    text-align: center;
-    color: white;
+    text-align: right;
+    color: red;
+    font-family: 'Pacifico', cursive;
 }

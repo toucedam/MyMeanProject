@@ -6,8 +6,6 @@ import { ItemsComponent } from './items/items.component';
 import { HeaderComponent } from './components/header/header.component';
 import { InputComponent } from './components/input/input.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { SidebarMaterialComponent } from './sidebar-material/sidebar-material.component';
 
 @NgModule({
   declarations: [
@@ -15,9 +13,7 @@ import { SidebarMaterialComponent } from './sidebar-material/sidebar-material.co
     ItemsComponent,   
     HeaderComponent,
     InputComponent,
-    FooterComponent,
-    SidebarComponent,
-    SidebarMaterialComponent
+    FooterComponent,   
   ],
   imports: [
     BrowserModule
