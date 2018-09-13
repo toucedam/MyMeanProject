@@ -1,0 +1,11 @@
+<button (click)= "add(itemName.value); itemName.value =''">
+	add
+</button>
+  <h2>My favorite item is: {{myBike}}</h2>
+  <p>Items:</p>
+  <ul class = "item">
+    <li *ngFor="let item ">
+      {{ item }}
+    </li>
+  </ul>
+  
